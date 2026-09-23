@@ -1,10 +1,58 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Jenkins CI/CD Demo</title> <link rel="stylesheet" href="style.css"> </head> <body>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>CI/CD Pipeline Demo</title> <link rel="stylesheet" href="style.css"> </head> <body>
 <div class="container">
-    <h1>Jenkins CI/CD Pipeline</h1>
 
-    <h2>Welcome Students!</h2>
+    <h1>🚀 CI/CD Pipeline</h1>
 
-    <p>This web application was deployed automatically using Jenkins.</p>
+    <h2>Jenkins Automation Demo</h2>
 
-    <button>CI/CD Demo</button>
+    <p>
+        This web application is automatically built, tested,
+        and deployed using a Jenkins CI/CD pipeline.
+    </p>
+
+    <div class="pipeline">
+
+        <div class="stage">
+            <div class="icon">💻</div>
+            <h3>1. Code</h3>
+            <p>Developer pushes code to Git repository.</p>
+        </div>
+
+        <div class="arrow">➡️</div>
+
+        <div class="stage">
+            <div class="icon">⚙️</div>
+            <h3>2. Build</h3>
+            <p>Jenkins automatically builds the application.</p>
+        </div>
+
+        <div class="arrow">➡️</div>
+
+        <div class="stage">
+            <div class="icon">🧪</div>
+            <h3>3. Test</h3>
+            <p>Automated tests verify the application.</p>
+        </div>
+
+        <div class="arrow">➡️</div>
+
+        <div class="stage">
+            <div class="icon">🚀</div>
+            <h3>4. Deploy</h3>
+            <p>Jenkins deploys the application automatically.</p>
+        </div>
+
+    </div>
+
+    <div class="status">
+        <h2>✅ Pipeline Status: SUCCESS</h2>
+        <p>Application deployed successfully using Jenkins.</p>
+    </div>
+
+    <button onclick="alert('CI/CD Pipeline is working successfully!')">
+        Run CI/CD Demo
+    </button>
+
 </div>
+
+</body> </html>
